@@ -4,6 +4,7 @@ import csv
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 
@@ -59,12 +60,35 @@ def check_pair(root, name):
     return result
 
 
+def page_sections(script_text, ids, strict):
+    """Keep every section of each approved page, including its design rationale."""
+    headings = list(re.finditer(r"^# (P[0-9]+)[ 	]*[｜|].*$", script_text, re.MULTILINE))
+    if [match[1] for match in headings] != ids:
+        if strict:
+            raise ValueError("approved page headings must match the ordered CSV page IDs")
+        # Older scripts may use prose headings. Preserve the whole script in that case.
+        return dict.fromkeys(ids, script_text)
+    ends = [match.start() for match in headings[1:]] + [len(script_text)]
+    return {match[1]: script_text[match.start():end] for match, end in zip(headings, ends)}
+
+
+def approved_block(page_id, page_text, label):
+    """Read the whole named execution block, never an arbitrary matching excerpt."""
+    boundary = r"(?=^#{1,6} |\Z)"
+    pattern = rf"^### {re.escape(label)}[ \t]*\n(.*?){boundary}"
+    matches = re.findall(pattern, page_text, re.MULTILINE | re.DOTALL)
+    if len(matches) != 1:
+        raise ValueError(f"{page_id}: expected one execution block for {label}")
+    return matches[0].rstrip("\n")
+
+
 def build(root, script, listing):
     script = root / script
     listing = root / listing
     approval = script.with_name("approval.json")
     approved = reference(script, root)
-    if json.loads(approval.read_text())["sha256"] != approved["sha256"]:
+    decision = json.loads(approval.read_text())
+    if decision["sha256"] != approved["sha256"]:
         raise ValueError("script differs from approved version")
     decisions = root / "execution-pages.json"
     pages = json.loads(decisions.read_text())
@@ -73,8 +97,15 @@ def build(root, script, listing):
     ids = [row.get("page_id") or row["页码"] for row in rows]
     if not rows or len(set(ids)) != len(rows) or set(ids) != set(pages):
         raise ValueError("execution pages must match the approved list exactly")
+    list_ref = reference(listing, root)
+    new_columns = {"摄影底图指令", "版式执行指令"}
+    strict = bool(new_columns.intersection(rows[0]) or "approved_list_sha256" in decision)
+    if strict and (not new_columns.issubset(rows[0]) or
+                   decision.get("approved_list_sha256") != list_ref["sha256"]):
+        raise ValueError("design handoff columns missing or CSV differs from approval")
+    sections = page_sections(script.read_text(encoding="utf-8"), ids, strict)
     manifest = {"approved_script": approved, "approval": reference(approval, root),
-                "approved_list": reference(listing, root), "decisions": reference(decisions, root),
+                "approved_list": list_ref, "decisions": reference(decisions, root),
                 "pages": []}
     for page_id, row in zip(ids, rows):
         page = dict(pages[page_id])
@@ -86,11 +117,27 @@ def build(root, script, listing):
         page["sku"] = row["SKU"]
         page["method"] = row["方式"]
         page["outputs"] = [reference(root / name, root) for name in page.get("outputs", [])]
-        photo = page.pop("photo_prompt")
-        if "layout_copy" in page:
-            copy = page.pop("layout_copy")
-        else:
+        page_text = sections[page_id]
+        page["design_input"] = text_input(root, "approved-design", page_text)
+        if strict:
+            photo = row["摄影底图指令"] or None
             copy = row["日文全文"]
+            layout = row["版式执行指令"]
+            if not layout.strip():
+                raise ValueError(f"{page_id}: missing layout instructions")
+            for label in ("摄影底图指令", "日文全文", "版式执行指令"):
+                if row[label] != approved_block(page_id, page_text, label):
+                    raise ValueError(f"{page_id}: {label} differs from the complete approved block")
+            for key, value in (("photo_prompt", photo), ("layout_copy", copy)):
+                if page.pop(key, value) != value:
+                    raise ValueError(f"{page_id}: unapproved replacement for {key}")
+            page["layout_plan_input"] = text_input(root, "layout-plan", layout)
+            page["handoff_format"] = "approved-design-and-channels"
+        else:
+            photo = page.pop("photo_prompt")
+            copy = page.pop("layout_copy") if "layout_copy" in page else row["日文全文"]
+            page["layout_plan_input"] = page["design_input"]
+            page["handoff_format"] = "legacy-full-design"
         if photo and any(line.strip() in photo for line in copy.splitlines() if line.strip()):
             raise ValueError(f"{page_id}: layout copy leaked into photo prompt")
         page["photo_input"] = text_input(root, "photo", photo) if photo else None
