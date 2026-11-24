@@ -4,13 +4,13 @@
 
 | 执行角色 | 模型 | 推理强度 | 职责与交付 |
 | --- | --- | --- | --- |
-| product_research | gpt-6.2-sol | medium | 核对当前 SKU、实拍和规格，整理消费者研究及视觉证据，注明来源与缺口。 |
-| detail_planner | gpt-6.2-sol | medium | 按 Skill 2 拟定结构，取得批准后按 Skill 3 交付脚本与制作资料。 |
+| product_research | gpt-6-sol | high | 核对当前 SKU、实拍和规格，整理消费者研究及视觉证据，注明来源与缺口。 |
+| detail_planner | gpt-6-astra | high | 按 Skill 2 拟定结构，取得批准后按 Skill 3 交付脚本与制作资料。 |
 | lovart_producer | gpt-6-luna | low | 负责制作调度，包括 Skill 6 精修、摄影底图、静态合成、排版及可追溯交付。 |
-| visual_qa | gpt-6.1-terra | medium | 对照实拍和批准稿检查结构、画幅、日文及可见细节，逐页提交问题或采用建议。 |
+| visual_qa | gpt-6-sol | medium | 对照实拍和批准稿检查结构、画幅、日文及可见细节，逐页提交问题或采用建议。 |
 | jp_listing | gpt-6-luna | medium | 依据已证实规格、采用素材及目标平台要求，交付日文上架稿。 |
 
-2026-11-24 采用省额度配置。Liz 主会话默认使用 gpt-6.2-sol、medium。制作 Agent 的模型负责调度和工具执行，正式商品生图按制作职责使用 GPT Image 2.6 Sunburst high。
+2026-11-24 采用 GPT-6 系列分工配置。Liz 主会话默认使用 gpt-6-sol、high。结构与视觉策划使用 Astra 处理完整设计与复杂约束，总控、研究与图片复核使用 Sol，制作调度及日文上架使用 Luna。此为按职责选择的成本与效果折中方案，实际效果与额度消耗须通过任务记录验证。制作 Agent 的模型负责调度和工具执行，正式商品生图按制作职责使用 GPT Image 2.6 Sunburst high。
 
 配置供加载本仓库的后续会话使用。运行时显式创建角色时读取对应 TOML 的模型与推理强度，并向该角色交付职责全文、适用 Skill 及完整上游文件路径。现有会话的模型以运行时为准，配置修改后的实际加载结果须在下次启动时核验。额度节省比例以实际任务用量记录为准。
 
