@@ -1,0 +1,95 @@
+{
+  "P1": {
+    "basis": "用户商品白底原图；用户确认尺寸；Skill 8同类评论仅作问题线索；Skill 10已查看RoomClip照片仅作一般空间/分层陈列参考（原帖403，非本品）；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+    "owner": "lovart_producer",
+    "assets": [
+      "sources/Codex 图像 2026年9月11日 17_21_30.png"
+    ],
+    "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+    "outputs": [
+      "production/raw/P1-v1.2.png",
+      "production/delivery/P1-v1.2.jpg"
+    ]
+  },
+  "P2": {
+    "basis": "用户商品资料确认免安装；类目评论仅支持安装为购买疑问；竞品非本品且不迁移其结构；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+    "owner": "lovart_producer",
+    "assets": [
+      "sources/Codex 图像 2026年9月11日 17_21_30.png"
+    ],
+    "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+    "outputs": [
+      "production/raw/P2-v1.1.png",
+      "production/working/P2-v1.1.png",
+      "production/delivery/P2-v1.1.jpg"
+    ]
+  },
+  "P3": {
+    "basis": "商品白底原图；Skill 8 RAK-01相近品评论为非本品线索；Skill 10两张开放架图为一般分层构图参考；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+    "owner": "lovart_producer",
+    "assets": [
+      "sources/Codex 图像 2026年9月11日 17_21_30.png"
+    ],
+    "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+    "outputs": [
+      "production/raw/P3-v1.png",
+      "production/working/P3-v1.1.png",
+      "production/delivery/P3-v1.1.jpg"
+    ]
+  },
+  "P4": {
+    "basis": "用户聊天内嵌脚垫补拍（可见黑色方柱、螺纹、圆脚垫及固定螺钉）；用户确认脚垫可调平衡；当前无独立文件及哈希；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+    "owner": "lovart_producer",
+    "assets": [
+      "sources/Codex 图像 2026年9月11日 17_21_30.png"
+    ],
+    "adoption": "阻塞：脚垫补拍只有聊天预览，无独立原图文件；未裁切、未精修、未排版。",
+    "outputs": []
+  },
+  "P5": {
+    "basis": "用户明确确认宽32cm、深26cm、高78.5cm；白底原图只作外形参考，不作测量工具；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+    "owner": "lovart_producer",
+    "assets": [
+      "sources/Codex 图像 2026年9月11日 17_21_30.png"
+    ],
+    "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+    "outputs": [
+      "production/working/P5-v1.1.png",
+      "production/delivery/P5-v1.1.jpg"
+    ]
+  },
+  "P6": {
+    "basis": "本品白底整机原图；聊天内嵌脚垫补拍；各裁切只按实际可辨像素选取，脚垫补拍无本地文件/哈希；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+    "owner": "lovart_producer",
+    "assets": [
+      "sources/Codex 图像 2026年9月11日 17_21_30.png"
+    ],
+    "adoption": "阻塞：脚垫补拍只有聊天预览，无独立原图文件；未裁切、未精修、未排版。",
+    "outputs": []
+  },
+  "P7": {
+    "basis": "音乐角为用户指定创意方向；商品白底原图为唯一结构依据；Skill10实景只作一般空间关系参考，不支持音乐偏好结论；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+    "owner": "lovart_producer",
+    "assets": [
+      "sources/Codex 图像 2026年9月11日 17_21_30.png"
+    ],
+    "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+    "outputs": [
+      "production/raw/P7-v1.1.png",
+      "production/working/P7-v1.1.png",
+      "production/delivery/P7-v1.1.jpg"
+    ]
+  },
+  "P8": {
+    "basis": "工作角为用户指定主题；商品白底原图为唯一结构依据；外部住宅参考不用于证明工作区偏好；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+    "owner": "lovart_producer",
+    "assets": [
+      "sources/Codex 图像 2026年9月11日 17_21_30.png"
+    ],
+    "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+    "outputs": [
+      "production/raw/P8-v1.png",
+      "production/delivery/P8-v1.jpg"
+    ]
+  }
+}

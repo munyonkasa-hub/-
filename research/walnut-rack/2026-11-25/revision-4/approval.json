@@ -1,0 +1,25 @@
+{
+  "approval_status": "APPROVED",
+  "approved_by": "USER",
+  "approved_at_utc": "2026-11-25",
+  "approval_evidence": "用户明确回复“批准”，回应对完整 Skill 3 P1–P8 脚本的审批请求。",
+  "approved_scope": "免安装胡桃木色三层置物架 P1–P8 Skill 3 脚本；P1按研究重新策划、P7音乐角、P8工作角，P2–P6保留已批准方案。",
+  "route_schema": 1,
+  "sha256": "6793e7b593982b16bfe8514bc722428031cfb26739e2110641b352855ee0a668",
+  "approved_list_sha256": "4d3bb2695ebdeeba0f2eba19e017ea78a50294fec000f5aff5e269661d89eaec",
+  "normalization_note": "在已批准视觉内容不变的前提下，显式加入逐页制作路线及“摄影底图指令／日文全文／版式执行指令”完整交接区块，供制作清单自动校验与逐字传递。无页面创意或商品事实改动。 P1初次输出暴露出机器可读摄影指令漏传了完整脚本中的“禁加植物”；已在摄影指令中补回该既有禁项，不改变页面策划或新增商品事实。 P2/P7摄影指令补齐了复核发现的已批准场景限制（P2只露手臂/侧身，P7须有紧凑椅/桌等音乐角空间关系）；P1保留原策划禁植物、禁瓶罐要求。未改动主题、结构、商品事实或页面文案。 用户明确批准 P2/P3/P7 版式修订提案v1；已将三个不同排版写回完整脚本与制作清单，保留原日文全文和摄影底图。 visual_qa复核建议P3/P7标题按语义手动断行；仅改变显示换行，不改动任何日文字符或文案含义。",
+  "layout_revision_approval": {
+    "status": "APPROVED",
+    "approved_by": "USER",
+    "approval_evidence": "批准提案 v1，继续制作",
+    "proposal_file": "P2-P3-P7_版式修订提案.md",
+    "proposal_sha256": "ea5d9042fdb5ef85f9cc69c2d5c88a37ecd357feb1c92267d9967bb0855e0f3e",
+    "approved_pages": [
+      "P2",
+      "P3",
+      "P7"
+    ],
+    "approved_at_utc": "2026-11-25",
+    "changes": "P2下方通栏文案区；P3右侧竖栏；P7左上浮动文字卡。文案与商品事实不变。"
+  }
+}

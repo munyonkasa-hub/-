@@ -1,0 +1,282 @@
+{
+  "date_utc": "2026-11-25",
+  "product": "免安装胡桃木色三层置物架",
+  "sku": "胡桃木色",
+  "project_id": "2wzodxjkzzsw",
+  "reference_upload": {
+    "source_path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+    "source_sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9",
+    "uploaded_derivative": "sources/product-reference-1086x1448-q92.jpg",
+    "derivative_sha256": "567e100be67fc090becb2e0e0aa8ceace6ad9e2df8cb3dd77944aa0261d85d65",
+    "dimensions": "1086x1448; JPEG quality 92 reference derivative",
+    "lovart_url": "https://a.lovart.ai/artifacts/user/ygZ9o2gYPm9yhfH1.jpg"
+  },
+  "generator": {
+    "tool": "mcp__codex_apps__lovart_generate_image",
+    "model": "openai/gpt-image-2-6-sunburst",
+    "quality": "high",
+    "output_format": "png",
+    "size": "1536*2048",
+    "aspect_ratio": "3:4",
+    "n": 1,
+    "transparent_background": false
+  },
+  "tasks": [
+    {
+      "page": "P1",
+      "revision": "v1",
+      "task_id": "15ee58ed-bc2e-4294-8bed-d06c5dadaeb1",
+      "prompt_sha256": "72867bdd9ee558376045d98d0f9e7eda6a0b5dd39410b26606b0a94ea0e2e1f8",
+      "artifact_id": "2KKwHH0xOKGC81JB",
+      "artifact_url": "https://a.lovart.ai/artifacts/generator/2KKwHH0xOKGC81JB.png",
+      "local_png": "production/raw/P1-v1-rejected.png",
+      "local_sha256": "53e3053f4e7ff777da221e147206a64cef0eef9c9a9463285444c5d9838ff7b9",
+      "status": "REJECTED",
+      "reason": "顶部架板与背景出现绿植，违反已批准脚本禁项。"
+    },
+    {
+      "page": "P2",
+      "revision": "v1",
+      "task_id": "f1197016-3ff5-4a48-a60e-6ba17a0e42bc",
+      "prompt_sha256": "51ed78ed5858356fe0cf089eb50d76b82ba299d69214fa32d5fec14972882abf",
+      "artifact_id": "zIwat5jUm7FZVV2C",
+      "artifact_url": "https://a.lovart.ai/artifacts/generator/zIwat5jUm7FZVV2C.png",
+      "local_png": "production/raw/P2-v1.png",
+      "local_sha256": "73e9f12a158657858785388b8962aeafb2364975b9d47c192d991d8e90fe31b4",
+      "status": "REJECTED",
+      "reason": "人物露面超出“只露手臂或侧身”的脚本要求。"
+    },
+    {
+      "page": "P3",
+      "revision": "v1",
+      "task_id": "69e84c69-8a09-4836-ac8d-ef88ae6078f1",
+      "prompt_sha256": "325884a261d22b3fffea94791ee40ebdbc9e232fc5d8cb68a36933c096e03f7b",
+      "artifact_id": "qpXeqBWdH1IoAl5L",
+      "artifact_url": "https://a.lovart.ai/artifacts/generator/qpXeqBWdH1IoAl5L.png",
+      "local_png": "production/raw/P3-v1.png",
+      "local_sha256": "11248dab4f9f36a676ff7d009bb5a3a36dcf6f459c68ce05659aff3385388474",
+      "status": "CANDIDATE",
+      "reason": "独立复核确认三层、取物动作与完整落地；无明显硬性违项；后期版式未完成。"
+    },
+    {
+      "page": "P7",
+      "revision": "v1",
+      "task_id": "16b86bb9-c000-4296-9706-b9d6f5cf91a1",
+      "prompt_sha256": "1ee4148256aae1c065c1a15995a2649834dfc5a2275435f844303a282748dafb",
+      "artifact_id": "OCnqO6secSInbNY5",
+      "artifact_url": "https://a.lovart.ai/artifacts/generator/OCnqO6secSInbNY5.png",
+      "local_png": "production/raw/P7-v1.png",
+      "local_sha256": "532f07a8f1e8a8056a659996ad9ab05d5a9518ee711a563891bcbe4865eb80ce",
+      "status": "REJECTED",
+      "reason": "缺少音乐角椅/桌等空间关系，画面近似白底棚拍。"
+    },
+    {
+      "page": "P8",
+      "revision": "v1",
+      "task_id": "7036e3f1-6649-4cff-b2f4-75f02170cde7",
+      "prompt_sha256": "94be48cdcd30d2f6df36bf8a889087655e90b5e8959751fb07d3a577d3f6bf82",
+      "artifact_id": "aNq6uIB6Y3IS4nvA",
+      "artifact_url": "https://a.lovart.ai/artifacts/generator/aNq6uIB6Y3IS4nvA.png",
+      "local_png": "production/raw/P8-v1.png",
+      "local_sha256": "d13e7926559cd3ccf596d0c01ad32345fff4cba241173810871481f5078748c1",
+      "status": "CANDIDATE",
+      "reason": "独立复核认为工作角家具关系、三层及脚部清楚；无字底图候选。"
+    },
+    {
+      "page": "P1",
+      "revision": "v1.1",
+      "task_id": "a6061350-ff3b-41e1-a53b-dfcd3e6cdc77",
+      "prompt_sha256": "26d2a4be907f86406abbab96de35a2943b91c91be7333bfbcdcc9641b170c5b0",
+      "artifact_id": "VKqq9kUNoq6gbYcw",
+      "artifact_url": "https://a.lovart.ai/artifacts/generator/VKqq9kUNoq6gbYcw.png",
+      "local_png": "production/raw/P1-v1.1-rejected.png",
+      "local_sha256": "843c1d6ece4b84c8e0db78cf14b113a5220ee51b2bb5342b1b4114113388e6d0",
+      "status": "REJECTED",
+      "reason": "尽管无植物，但出现瓶罐及玻璃杯，违反完整页道具限制；摄影输入当时尚未补齐所有禁项。"
+    },
+    {
+      "page": "P2",
+      "revision": "v1.1",
+      "task_id": "9d706058-7bc6-48d4-ae12-785f9604df3c",
+      "prompt_sha256": "4e0ab364a1eb9863b6d0318f8abfc1364a197466ac2f832be1c114f664532d5e",
+      "artifact_id": "42mWUimJ58KLduJ1",
+      "artifact_url": "https://a.lovart.ai/artifacts/generator/42mWUimJ58KLduJ1.png",
+      "local_png": "production/raw/P2-v1.1.png",
+      "local_sha256": "3f9a2c08cfece4f50c39bb06a3025bc9305c6f318b901bb166249657946e496a",
+      "status": "CANDIDATE",
+      "reason": "QA确认只有手臂入镜、放置轻质布盒，商品和脚完整；待页面排版复核。"
+    },
+    {
+      "page": "P7",
+      "revision": "v1.1",
+      "task_id": "72152ab4-a076-407a-b6b9-7c481cac6cd5",
+      "prompt_sha256": "e7eca8825a58dfce4898a42a50236a879cc9ff387d2dd183ea294d86948f4384",
+      "artifact_id": "jxtP4s8MGNKtcmam",
+      "artifact_url": "https://a.lovart.ai/artifacts/generator/jxtP4s8MGNKtcmam.png",
+      "local_png": "production/raw/P7-v1.1.png",
+      "local_sha256": "60bb380ddd719bd3d4813a30e365f3f042758a7bc0f3e78b5083a0277a3b7a2a",
+      "status": "CANDIDATE",
+      "reason": "QA确认音乐角空间关系、椅子和主题道具符合；待页面排版复核。"
+    },
+    {
+      "page": "P1",
+      "revision": "v1.2",
+      "task_id": "1d40f989-9678-489c-b34f-f40ebd770b01",
+      "prompt_sha256": "dbf242e0a51225c4a3353c06e96442d1103e66c13f81a7c2d85acbdb261712b8",
+      "artifact_id": "QxbDoZLpLg39d0vn",
+      "artifact_url": "https://a.lovart.ai/artifacts/generator/QxbDoZLpLg39d0vn.png",
+      "local_png": "production/raw/P1-v1.2.png",
+      "local_sha256": "6e0fe62a22cb1ea05c5512ebe0a4a09a31894192a0d04309a07042bed60ebb8e",
+      "status": "CANDIDATE",
+      "reason": "独立QA确认符合无字场景与道具禁项；JPEG已导出。"
+    }
+  ],
+  "static_layouts": [
+    {
+      "page": "P5",
+      "input": "production/working/P5-v1-rejected.png",
+      "sha256": "4c5362da9b50da19735470a68cb108b8616316b89cc29c5e80311de10c7b2e96",
+      "status": "REJECTED",
+      "reason": "宽度箭头终点跨到右后角，未准确指向正面外宽。"
+    },
+    {
+      "page": "P5",
+      "input": "production/working/P5-v1.1.png",
+      "sha256": "0b42d0e646d9a403ae7f98654963cc707d7220dd1909d57faec050d4a1c7a24d",
+      "build_script": "production/layout/build_p5.py",
+      "status": "PASS",
+      "qa": "visual_qa独立复核通过；宽度箭头指向左右正面外缘，厘米/英寸、免责声明准确。"
+    }
+  ],
+  "tool_errors": [
+    {
+      "tool": "lovart_postprocess.py",
+      "error": "首次运行因目标delivery目录尚未创建而失败（No such file or directory）。创建目录后原参数重跑成功。"
+    }
+  ],
+  "delivery_jpeg": [
+    {
+      "page": "P1",
+      "path": "production/delivery/P1-v1.2.jpg",
+      "sha256": "e3774bc99f76af64040d71c899502e568c3e4724cfcfcb54004eb1addd79f7d2",
+      "bytes": 362184,
+      "size": "1200x1600",
+      "mode": "RGB",
+      "format": "JPEG",
+      "quality": 90,
+      "status": "PASS"
+    },
+    {
+      "page": "P2",
+      "path": "production/delivery/P2-v1.1.jpg",
+      "sha256": "18392f6bf97d05d1b237b261b72a195f32c38f0d1c886e7566276834a8ab08eb",
+      "bytes": 240919,
+      "size": "1200x1600",
+      "mode": "RGB",
+      "format": "JPEG",
+      "quality": 90,
+      "status": "PASS"
+    },
+    {
+      "page": "P3",
+      "path": "production/delivery/P3-v1.1.jpg",
+      "sha256": "726f20a435e9e815f94034c790c8bd6f7aa3cf36993cbfad4233604d748793c8",
+      "bytes": 394601,
+      "size": "1200x1600",
+      "mode": "RGB",
+      "format": "JPEG",
+      "quality": 90,
+      "status": "PASS"
+    },
+    {
+      "page": "P5",
+      "path": "production/delivery/P5-v1.1.jpg",
+      "sha256": "ee28f2786c56f82b06c39060b29c44603192fe73af030a3c382da25a7e33644c",
+      "bytes": 186445,
+      "size": "1200x1600",
+      "mode": "RGB",
+      "format": "JPEG",
+      "quality": 90,
+      "status": "PASS"
+    },
+    {
+      "page": "P7",
+      "path": "production/delivery/P7-v1.1.jpg",
+      "sha256": "f03969f4c9b593a7ccf3e77c00b2f73736e86d1fa058ffa4b84c574c78f04fc6",
+      "bytes": 389231,
+      "size": "1200x1600",
+      "mode": "RGB",
+      "format": "JPEG",
+      "quality": 90,
+      "status": "PASS"
+    },
+    {
+      "page": "P8",
+      "path": "production/delivery/P8-v1.jpg",
+      "sha256": "fbec9672e3a57682d993466c6d5084446e896f52dcc4447b24f24d1920216881",
+      "bytes": 377686,
+      "size": "1200x1600",
+      "mode": "RGB",
+      "format": "JPEG",
+      "quality": 90,
+      "status": "PASS"
+    }
+  ],
+  "blocked": [
+    {
+      "page": "P4",
+      "reason": "脚垫补拍只有会话内嵌预览，缺本地原图文件，无法合法创建原图裁切或精修。"
+    },
+    {
+      "page": "P6",
+      "reason": "真实细节四宫格的脚垫素材同样缺独立文件；不能伪造细节或冒称与原件成对归档。"
+    }
+  ],
+  "layout_outputs": [
+    {
+      "page": "P2",
+      "layout_script": "production/layout/build_pages_p2_p3_p7.py",
+      "png": "production/working/P2-v1.1.png",
+      "png_sha256": "3d4330e2e442f9891b1473d54c02f4691f705714e19c3b877f60d541f6da6724",
+      "jpeg": "production/delivery/P2-v1.1.jpg",
+      "jpeg_sha256": "18392f6bf97d05d1b237b261b72a195f32c38f0d1c886e7566276834a8ab08eb",
+      "status": "PASS_INDEPENDENT_QA"
+    },
+    {
+      "page": "P3",
+      "layout_script": "production/layout/build_pages_p2_p3_p7.py",
+      "png": "production/working/P3-v1.1.png",
+      "png_sha256": "96b8222b314d08727b638b5dabcb7fe561fe69620c39371178f28bba11df89fb",
+      "jpeg": "production/delivery/P3-v1.1.jpg",
+      "jpeg_sha256": "726f20a435e9e815f94034c790c8bd6f7aa3cf36993cbfad4233604d748793c8",
+      "status": "PASS_INDEPENDENT_QA"
+    },
+    {
+      "page": "P7",
+      "layout_script": "production/layout/build_pages_p2_p3_p7.py",
+      "png": "production/working/P7-v1.1.png",
+      "png_sha256": "f4771cb284c04047e3017ba3b551b26773942d6b75aaf51110aaeb7f128fdc61",
+      "jpeg": "production/delivery/P7-v1.1.jpg",
+      "jpeg_sha256": "f03969f4c9b593a7ccf3e77c00b2f73736e86d1fa058ffa4b84c574c78f04fc6",
+      "status": "PASS_INDEPENDENT_QA"
+    }
+  ],
+  "independent_visual_qa": {
+    "reviewer": "visual_qa_run2 (独立复核，未参与页面制作)",
+    "reviewed_pages": [
+      "P1-v1.2",
+      "P2-v1.1",
+      "P3-v1.1",
+      "P5-v1.1",
+      "P7-v1.1",
+      "P8-v1"
+    ],
+    "status": "PASS",
+    "findings": "六页商品主体完整；日文可读且无乱码、遮挡或裁切；P3右侧信息栏与P7左上文字卡未遮挡商品及关键动作/道具；P5尺寸轴线、数值及免责声明对应正确；未发现硬性返工项。",
+    "reviewed_assets": "当前执行清单中的PNG版式成品及最终JPEG；复核者重新打开当前工作版。",
+    "blocked_pages": {
+      "P4": "缺可读取脚垫原图文件，未制作。",
+      "P6": "缺可读取脚垫原图文件，未制作。"
+    }
+  }
+}

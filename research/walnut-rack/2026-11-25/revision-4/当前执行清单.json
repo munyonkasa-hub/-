@@ -1,0 +1,349 @@
+{
+  "approved_script": {
+    "path": "SKILL3_P1-P8_完整视觉脚本.md",
+    "sha256": "6793e7b593982b16bfe8514bc722428031cfb26739e2110641b352855ee0a668"
+  },
+  "approval": {
+    "path": "approval.json",
+    "sha256": "491ea79d2996253f3578fc893ba51797247facc45f1f528dd9de501a6fb1938b"
+  },
+  "approved_list": {
+    "path": "SKILL3_批量制作清单.csv",
+    "sha256": "4d3bb2695ebdeeba0f2eba19e017ea78a50294fec000f5aff5e269661d89eaec"
+  },
+  "decisions": {
+    "path": "execution-pages.json",
+    "sha256": "a89cb8413a3254421af3a3bcce1e36af6a7edf8584e03088635e2bf1eb6a07bc"
+  },
+  "pages": [
+    {
+      "basis": "用户商品白底原图；用户确认尺寸；Skill 8同类评论仅作问题线索；Skill 10已查看RoomClip照片仅作一般空间/分层陈列参考（原帖403，非本品）；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+      "owner": "lovart_producer",
+      "assets": [
+        {
+          "path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+          "sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9"
+        }
+      ],
+      "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+      "outputs": [
+        {
+          "path": "production/raw/P1-v1.2.png",
+          "sha256": "6e0fe62a22cb1ea05c5512ebe0a4a09a31894192a0d04309a07042bed60ebb8e"
+        },
+        {
+          "path": "production/delivery/P1-v1.2.jpg",
+          "sha256": "e3774bc99f76af64040d71c899502e568c3e4724cfcfcb54004eb1addd79f7d2"
+        }
+      ],
+      "page_id": "P1",
+      "sku": "胡桃木色",
+      "method": "PHOTO_GENERATION",
+      "design_input": {
+        "path": "execution-inputs/approved-design/0fe03631d385ea2af6332392aa59882ee35b7894b560962b4f9c15776bd711fa.txt",
+        "sha256": "0fe03631d385ea2af6332392aa59882ee35b7894b560962b4f9c15776bd711fa"
+      },
+      "execution_route": "PHOTO_GENERATION",
+      "route_verified": true,
+      "layout_plan_input": {
+        "path": "execution-inputs/layout-plan/f4b9637df329dda0e8a38fc0165056c45309c20f104f20f698c99cc9e81dfd9d.txt",
+        "sha256": "f4b9637df329dda0e8a38fc0165056c45309c20f104f20f698c99cc9e81dfd9d"
+      },
+      "handoff_format": "approved-design-and-channels",
+      "photo_input": {
+        "path": "execution-inputs/photo/dbf242e0a51225c4a3353c06e96442d1103e66c13f81a7c2d85acbdb261712b8.txt",
+        "sha256": "dbf242e0a51225c4a3353c06e96442d1103e66c13f81a7c2d85acbdb261712b8"
+      },
+      "layout_input": {
+        "path": "execution-inputs/layout/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "basis": "用户商品资料确认免安装；类目评论仅支持安装为购买疑问；竞品非本品且不迁移其结构；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+      "owner": "lovart_producer",
+      "assets": [
+        {
+          "path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+          "sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9"
+        }
+      ],
+      "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+      "outputs": [
+        {
+          "path": "production/raw/P2-v1.1.png",
+          "sha256": "3f9a2c08cfece4f50c39bb06a3025bc9305c6f318b901bb166249657946e496a"
+        },
+        {
+          "path": "production/working/P2-v1.1.png",
+          "sha256": "3d4330e2e442f9891b1473d54c02f4691f705714e19c3b877f60d541f6da6724"
+        },
+        {
+          "path": "production/delivery/P2-v1.1.jpg",
+          "sha256": "18392f6bf97d05d1b237b261b72a195f32c38f0d1c886e7566276834a8ab08eb"
+        }
+      ],
+      "page_id": "P2",
+      "sku": "胡桃木色",
+      "method": "PHOTO_GENERATION",
+      "design_input": {
+        "path": "execution-inputs/approved-design/37df66872eedd6e8ddba3a3fa1bcadcb6fa9f87c1000ad5cb178f62d309665c5.txt",
+        "sha256": "37df66872eedd6e8ddba3a3fa1bcadcb6fa9f87c1000ad5cb178f62d309665c5"
+      },
+      "execution_route": "PHOTO_GENERATION",
+      "route_verified": true,
+      "layout_plan_input": {
+        "path": "execution-inputs/layout-plan/b74419928009bad55bb49560dfab6c9fd12114ea391dafffc8ab590234d6c036.txt",
+        "sha256": "b74419928009bad55bb49560dfab6c9fd12114ea391dafffc8ab590234d6c036"
+      },
+      "handoff_format": "approved-design-and-channels",
+      "photo_input": {
+        "path": "execution-inputs/photo/4e0ab364a1eb9863b6d0318f8abfc1364a197466ac2f832be1c114f664532d5e.txt",
+        "sha256": "4e0ab364a1eb9863b6d0318f8abfc1364a197466ac2f832be1c114f664532d5e"
+      },
+      "layout_input": {
+        "path": "execution-inputs/layout/e836ce07c610d384ba6087aebb8f2f41384bf5c8e91623b4d8e36b2010bdc261.txt",
+        "sha256": "e836ce07c610d384ba6087aebb8f2f41384bf5c8e91623b4d8e36b2010bdc261"
+      }
+    },
+    {
+      "basis": "商品白底原图；Skill 8 RAK-01相近品评论为非本品线索；Skill 10两张开放架图为一般分层构图参考；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+      "owner": "lovart_producer",
+      "assets": [
+        {
+          "path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+          "sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9"
+        }
+      ],
+      "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+      "outputs": [
+        {
+          "path": "production/raw/P3-v1.png",
+          "sha256": "11248dab4f9f36a676ff7d009bb5a3a36dcf6f459c68ce05659aff3385388474"
+        },
+        {
+          "path": "production/working/P3-v1.1.png",
+          "sha256": "96b8222b314d08727b638b5dabcb7fe561fe69620c39371178f28bba11df89fb"
+        },
+        {
+          "path": "production/delivery/P3-v1.1.jpg",
+          "sha256": "726f20a435e9e815f94034c790c8bd6f7aa3cf36993cbfad4233604d748793c8"
+        }
+      ],
+      "page_id": "P3",
+      "sku": "胡桃木色",
+      "method": "PHOTO_GENERATION",
+      "design_input": {
+        "path": "execution-inputs/approved-design/bdd390f545db67b8e20ee6983821639626177dab018e902a09a8f4296494075c.txt",
+        "sha256": "bdd390f545db67b8e20ee6983821639626177dab018e902a09a8f4296494075c"
+      },
+      "execution_route": "PHOTO_GENERATION",
+      "route_verified": true,
+      "layout_plan_input": {
+        "path": "execution-inputs/layout-plan/aea23b7887224ea1f47dc5f52c2db72674bcfefa046533f093e8b8be49b72576.txt",
+        "sha256": "aea23b7887224ea1f47dc5f52c2db72674bcfefa046533f093e8b8be49b72576"
+      },
+      "handoff_format": "approved-design-and-channels",
+      "photo_input": {
+        "path": "execution-inputs/photo/325884a261d22b3fffea94791ee40ebdbc9e232fc5d8cb68a36933c096e03f7b.txt",
+        "sha256": "325884a261d22b3fffea94791ee40ebdbc9e232fc5d8cb68a36933c096e03f7b"
+      },
+      "layout_input": {
+        "path": "execution-inputs/layout/837a70012cfc5aa3cf81bf4ce0f3e46765d3a1d39e9e0054240b589715fae823.txt",
+        "sha256": "837a70012cfc5aa3cf81bf4ce0f3e46765d3a1d39e9e0054240b589715fae823"
+      }
+    },
+    {
+      "basis": "用户聊天内嵌脚垫补拍（可见黑色方柱、螺纹、圆脚垫及固定螺钉）；用户确认脚垫可调平衡；当前无独立文件及哈希；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+      "owner": "lovart_producer",
+      "assets": [
+        {
+          "path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+          "sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9"
+        }
+      ],
+      "adoption": "阻塞：脚垫补拍只有聊天预览，无独立原图文件；未裁切、未精修、未排版。",
+      "outputs": [],
+      "page_id": "P4",
+      "sku": "胡桃木色",
+      "method": "SOURCE_CROP_LAYOUT",
+      "design_input": {
+        "path": "execution-inputs/approved-design/1c011f4a978bc93ba6090611fd2b0abd06de6450744cfd16970add6adc2b558d.txt",
+        "sha256": "1c011f4a978bc93ba6090611fd2b0abd06de6450744cfd16970add6adc2b558d"
+      },
+      "execution_route": "SOURCE_CROP_LAYOUT",
+      "route_verified": true,
+      "layout_plan_input": {
+        "path": "execution-inputs/layout-plan/976606e4224d860c370c3365378f713dacc4ac156687b2c195493add89c16031.txt",
+        "sha256": "976606e4224d860c370c3365378f713dacc4ac156687b2c195493add89c16031"
+      },
+      "handoff_format": "approved-design-and-channels",
+      "photo_input": null,
+      "layout_input": {
+        "path": "execution-inputs/layout/80fe1df5d555e325686e71c4836d122aae51c7daa4d51507629e65deaaf3b9a4.txt",
+        "sha256": "80fe1df5d555e325686e71c4836d122aae51c7daa4d51507629e65deaaf3b9a4"
+      }
+    },
+    {
+      "basis": "用户明确确认宽32cm、深26cm、高78.5cm；白底原图只作外形参考，不作测量工具；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+      "owner": "lovart_producer",
+      "assets": [
+        {
+          "path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+          "sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9"
+        }
+      ],
+      "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+      "outputs": [
+        {
+          "path": "production/working/P5-v1.1.png",
+          "sha256": "0b42d0e646d9a403ae7f98654963cc707d7220dd1909d57faec050d4a1c7a24d"
+        },
+        {
+          "path": "production/delivery/P5-v1.1.jpg",
+          "sha256": "ee28f2786c56f82b06c39060b29c44603192fe73af030a3c382da25a7e33644c"
+        }
+      ],
+      "page_id": "P5",
+      "sku": "胡桃木色",
+      "method": "STATIC_LAYOUT",
+      "design_input": {
+        "path": "execution-inputs/approved-design/c3a2ab38487c95a285086eb356ef3a5642d54f72a780e7c6d9cee57599d72af1.txt",
+        "sha256": "c3a2ab38487c95a285086eb356ef3a5642d54f72a780e7c6d9cee57599d72af1"
+      },
+      "execution_route": "STATIC_LAYOUT",
+      "route_verified": true,
+      "layout_plan_input": {
+        "path": "execution-inputs/layout-plan/fd724e780893cee1727ec3d7ee02918d5f9439ffcf7f143af9f05010abb20ae0.txt",
+        "sha256": "fd724e780893cee1727ec3d7ee02918d5f9439ffcf7f143af9f05010abb20ae0"
+      },
+      "handoff_format": "approved-design-and-channels",
+      "photo_input": null,
+      "layout_input": {
+        "path": "execution-inputs/layout/1dfee840db2e74cfd44c9e6e37403d69cb71ad0b4660e139df9317c25494280a.txt",
+        "sha256": "1dfee840db2e74cfd44c9e6e37403d69cb71ad0b4660e139df9317c25494280a"
+      }
+    },
+    {
+      "basis": "本品白底整机原图；聊天内嵌脚垫补拍；各裁切只按实际可辨像素选取，脚垫补拍无本地文件/哈希；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+      "owner": "lovart_producer",
+      "assets": [
+        {
+          "path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+          "sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9"
+        }
+      ],
+      "adoption": "阻塞：脚垫补拍只有聊天预览，无独立原图文件；未裁切、未精修、未排版。",
+      "outputs": [],
+      "page_id": "P6",
+      "sku": "胡桃木色",
+      "method": "SOURCE_CROP_LAYOUT",
+      "design_input": {
+        "path": "execution-inputs/approved-design/35b5830c22aedb907cd25633b96cf3e99a88b7a102ff91a831c2057bcda33730.txt",
+        "sha256": "35b5830c22aedb907cd25633b96cf3e99a88b7a102ff91a831c2057bcda33730"
+      },
+      "execution_route": "SOURCE_CROP_LAYOUT",
+      "route_verified": true,
+      "layout_plan_input": {
+        "path": "execution-inputs/layout-plan/8709a6b9e57ee629685c01c3be90b1e54bebc5cdf5325e319f2c5bd2526ad531.txt",
+        "sha256": "8709a6b9e57ee629685c01c3be90b1e54bebc5cdf5325e319f2c5bd2526ad531"
+      },
+      "handoff_format": "approved-design-and-channels",
+      "photo_input": null,
+      "layout_input": {
+        "path": "execution-inputs/layout/d444f0a0012c48b88166503061b680676bc0653f1136cf41053f0b121dbf2049.txt",
+        "sha256": "d444f0a0012c48b88166503061b680676bc0653f1136cf41053f0b121dbf2049"
+      }
+    },
+    {
+      "basis": "音乐角为用户指定创意方向；商品白底原图为唯一结构依据；Skill10实景只作一般空间关系参考，不支持音乐偏好结论；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+      "owner": "lovart_producer",
+      "assets": [
+        {
+          "path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+          "sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9"
+        }
+      ],
+      "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+      "outputs": [
+        {
+          "path": "production/raw/P7-v1.1.png",
+          "sha256": "60bb380ddd719bd3d4813a30e365f3f042758a7bc0f3e78b5083a0277a3b7a2a"
+        },
+        {
+          "path": "production/working/P7-v1.1.png",
+          "sha256": "f4771cb284c04047e3017ba3b551b26773942d6b75aaf51110aaeb7f128fdc61"
+        },
+        {
+          "path": "production/delivery/P7-v1.1.jpg",
+          "sha256": "f03969f4c9b593a7ccf3e77c00b2f73736e86d1fa058ffa4b84c574c78f04fc6"
+        }
+      ],
+      "page_id": "P7",
+      "sku": "胡桃木色",
+      "method": "PHOTO_GENERATION",
+      "design_input": {
+        "path": "execution-inputs/approved-design/7a3ba074951609379df42abb5c404dda65c5439091c82c36129f4f067d5116ff.txt",
+        "sha256": "7a3ba074951609379df42abb5c404dda65c5439091c82c36129f4f067d5116ff"
+      },
+      "execution_route": "PHOTO_GENERATION",
+      "route_verified": true,
+      "layout_plan_input": {
+        "path": "execution-inputs/layout-plan/6d87928dcf801912552e7b5cc374380849e0fd842d61b1ddb57809bffb7a5cc0.txt",
+        "sha256": "6d87928dcf801912552e7b5cc374380849e0fd842d61b1ddb57809bffb7a5cc0"
+      },
+      "handoff_format": "approved-design-and-channels",
+      "photo_input": {
+        "path": "execution-inputs/photo/e7eca8825a58dfce4898a42a50236a879cc9ff387d2dd183ea294d86948f4384.txt",
+        "sha256": "e7eca8825a58dfce4898a42a50236a879cc9ff387d2dd183ea294d86948f4384"
+      },
+      "layout_input": {
+        "path": "execution-inputs/layout/dc4409d61df6c18e5e73ca66d4120e22314084da727c0ef8fcc566645dd2b4ce.txt",
+        "sha256": "dc4409d61df6c18e5e73ca66d4120e22314084da727c0ef8fcc566645dd2b4ce"
+      }
+    },
+    {
+      "basis": "工作角为用户指定主题；商品白底原图为唯一结构依据；外部住宅参考不用于证明工作区偏好；用户批准结构版本 walnut-rack-skill2-draft-v2。",
+      "owner": "lovart_producer",
+      "assets": [
+        {
+          "path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+          "sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9"
+        }
+      ],
+      "adoption": "独立视觉复核通过；JPEG技术规格核验通过；作为本轮交付候选，等待用户对整套结果确认。",
+      "outputs": [
+        {
+          "path": "production/raw/P8-v1.png",
+          "sha256": "d13e7926559cd3ccf596d0c01ad32345fff4cba241173810871481f5078748c1"
+        },
+        {
+          "path": "production/delivery/P8-v1.jpg",
+          "sha256": "fbec9672e3a57682d993466c6d5084446e896f52dcc4447b24f24d1920216881"
+        }
+      ],
+      "page_id": "P8",
+      "sku": "胡桃木色",
+      "method": "PHOTO_GENERATION",
+      "design_input": {
+        "path": "execution-inputs/approved-design/e8c4a34c61a056c9f9cc521a063d749868551e957be314f8cecbd4e99cbd3dbf.txt",
+        "sha256": "e8c4a34c61a056c9f9cc521a063d749868551e957be314f8cecbd4e99cbd3dbf"
+      },
+      "execution_route": "PHOTO_GENERATION",
+      "route_verified": true,
+      "layout_plan_input": {
+        "path": "execution-inputs/layout-plan/48a6c425a3f2d1425b47422b70105cca9f0947684ec4b3ff45160040fa15ec9a.txt",
+        "sha256": "48a6c425a3f2d1425b47422b70105cca9f0947684ec4b3ff45160040fa15ec9a"
+      },
+      "handoff_format": "approved-design-and-channels",
+      "photo_input": {
+        "path": "execution-inputs/photo/94be48cdcd30d2f6df36bf8a889087655e90b5e8959751fb07d3a577d3f6bf82.txt",
+        "sha256": "94be48cdcd30d2f6df36bf8a889087655e90b5e8959751fb07d3a577d3f6bf82"
+      },
+      "layout_input": {
+        "path": "execution-inputs/layout/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ]
+}
