@@ -1,0 +1,392 @@
+{
+  "handoff_type": "JP_CONSUMER_INSIGHT_HANDOFF_V1",
+  "schema_version": "1.0",
+  "handoff_status": "PARTIAL_EVIDENCE",
+  "product_info": {
+    "product_name": "免安装三层置物架",
+    "category": "木板/金属框架开放式置物架",
+    "skus": [
+      "胡桃木色"
+    ],
+    "dimensions_cm": [
+      {
+        "width": 32,
+        "depth": 26,
+        "height": 78.5,
+        "source": "user-confirmed"
+      }
+    ],
+    "materials": [
+      "碳钢",
+      "木板"
+    ],
+    "colors": [
+      "胡桃木色",
+      "黑色框架"
+    ],
+    "functions": [
+      "免安装",
+      "脚垫可调平衡"
+    ],
+    "structure_constraints": [
+      "三层",
+      "不可增减横杆及脚部零件"
+    ],
+    "unknowns": [
+      "承重",
+      "层间净高",
+      "脚垫调节行程",
+      "板材具体种类"
+    ]
+  },
+  "upstream_status": {
+    "skill8_handoff_status": "PARTIAL",
+    "skill8_handoff_ref": "SKILL8_日本消费者研究_部分完成.md"
+  },
+  "research_scope": {
+    "verified_independent_consumer_samples": 15,
+    "source_platform_count": 2,
+    "date_range": "2014-08 to 2026-10",
+    "limitations": [
+      "15 entries across 5 similar but not identical product pages; target 30 not reached",
+      "Different products/features, no transfer of product performance"
+    ]
+  },
+  "consumer_needs": [
+    {
+      "need_id": "NEED-01",
+      "need_summary": "物品容易查看和取用",
+      "consumer_question": "三层能否让物品分区并方便取用？",
+      "priority": "HIGH",
+      "evidence_level": "B",
+      "evidence_refs": [
+        "RAK-01"
+      ],
+      "product_match": "本品三层外观可与该需求匹配，实际取放需视觉验证",
+      "product_proof": "显示三层和真实物品动作，不宣称容量",
+      "visual_research_objective": "观察开放架如何分层陈列及保留取物空间",
+      "unverified_points": [
+        "本品层间净高、容量、承重"
+      ]
+    },
+    {
+      "need_id": "NEED-02",
+      "need_summary": "避免复杂组装",
+      "consumer_question": "置物架到手后是否需要组装？",
+      "priority": "HIGH",
+      "evidence_level": "B",
+      "evidence_refs": [
+        "RAK-03"
+      ],
+      "product_match": "用户称本品免安装，与类目顾虑对应",
+      "product_proof": "需由包装/商品资料确证免安装定义",
+      "visual_research_objective": "寻找免安装信息和真实到货状态的清楚表达",
+      "unverified_points": [
+        "是否需要展开、卡扣或脚垫调节"
+      ]
+    },
+    {
+      "need_id": "NEED-03",
+      "need_summary": "仅凭图片判断板面外观较困难",
+      "consumer_question": "木板表面和框架细节如何？",
+      "priority": "MEDIUM",
+      "evidence_level": "B",
+      "evidence_refs": [
+        "RAK-02",
+        "RAK-04"
+      ],
+      "product_match": "适合以本品实拍细节回应",
+      "product_proof": "真实原图/补拍",
+      "visual_research_objective": "寻找真实板面、边缘、框架连接的可读特写",
+      "unverified_points": [
+        "本品木板具体种类和耐久性能"
+      ]
+    }
+  ],
+  "pain_points": [
+    {
+      "need_ids": [
+        "NEED-01"
+      ],
+      "description": "物品不易查看/取用的可能问题由一条同类评论提及",
+      "evidence_refs": [
+        "RAK-01"
+      ]
+    },
+    {
+      "need_ids": [
+        "NEED-02"
+      ],
+      "description": "组装横杆费力的类目顾虑",
+      "evidence_refs": [
+        "RAK-03"
+      ]
+    }
+  ],
+  "purchase_motivations": [
+    {
+      "need_ids": [
+        "NEED-01"
+      ],
+      "description": "希望分层后更易查看和取出",
+      "evidence_refs": [
+        "RAK-01"
+      ]
+    }
+  ],
+  "purchase_concerns": [
+    {
+      "need_ids": [
+        "NEED-02"
+      ],
+      "description": "组装是否费时",
+      "evidence_refs": [
+        "RAK-03"
+      ]
+    },
+    {
+      "need_ids": [
+        "NEED-03"
+      ],
+      "description": "商品图难以看清板面质感",
+      "evidence_refs": [
+        "RAK-02"
+      ]
+    }
+  ],
+  "emotional_values": [
+    {
+      "need_ids": [
+        "NEED-01"
+      ],
+      "description": "清楚分区可能带来秩序感，属分析解释而非用户原话",
+      "evidence_refs": [
+        "RAK-01"
+      ]
+    }
+  ],
+  "usage_scenarios": [
+    {
+      "need_ids": [
+        "NEED-01"
+      ],
+      "description": "同类评论显示开放架可陈列/收纳日常物品；本品房间位置待研究",
+      "evidence_refs": [
+        "RAK-01"
+      ]
+    }
+  ],
+  "consumer_questions": [
+    {
+      "need_ids": [
+        "NEED-01"
+      ],
+      "description": "如何分层、能否看清和拿取物品？",
+      "evidence_refs": [
+        "RAK-01"
+      ]
+    },
+    {
+      "need_ids": [
+        "NEED-02"
+      ],
+      "description": "到货是否需要组装？",
+      "evidence_refs": [
+        "RAK-03"
+      ]
+    }
+  ],
+  "need_priorities": [
+    {
+      "need_id": "NEED-01",
+      "rank": 1,
+      "reason": "类目评论直接提及分层及取放，但不是本品证据"
+    },
+    {
+      "need_id": "NEED-02",
+      "rank": 2,
+      "reason": "本品名称指向免安装，类目评论显示组装是顾虑"
+    },
+    {
+      "need_id": "NEED-03",
+      "rank": 3,
+      "reason": "类目评论指出图像判断板面质感困难，需本品补拍验证"
+    }
+  ],
+  "evidence_refs": [
+    {
+      "evidence_id": "RAK-01",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "同类木板钢架三层架购买评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-10-07",
+      "locator": "页面中匿名评论条目，提到选择3段以控制高度且便于查看和取出"
+    },
+    {
+      "evidence_id": "RAK-02",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "同类木板钢架三层架购买评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-09-13",
+      "locator": "页面评论提到图片无法判断棚板质感"
+    },
+    {
+      "evidence_id": "RAK-03",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "同类木板钢架三层架购买评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-07-05",
+      "locator": "页面评论提到独自安装横杆耗时"
+    },
+    {
+      "evidence_id": "RAK-04",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "同类木板钢架三层架购买评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-07-23",
+      "locator": "页面评论提到板面质感及组装简单"
+    },
+    {
+      "evidence_id": "RAK-05",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/429924_10000003/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "折叠钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-04-05",
+      "locator": "组装容易但锁扣无法扣上"
+    },
+    {
+      "evidence_id": "RAK-06",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/429924_10000003/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "折叠钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-10-01",
+      "locator": "5段更高时感觉稍不稳定"
+    },
+    {
+      "evidence_id": "RAK-07",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/429924_10000003/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "折叠钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-02-10",
+      "locator": "窄小储藏室73×90cm内组装和安装"
+    },
+    {
+      "evidence_id": "RAK-08",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/385578_10000589/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "折叠钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-01-12",
+      "locator": "担心折弯但放瓶装箱目前稳定"
+    },
+    {
+      "evidence_id": "RAK-09",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/385578_10000589/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "折叠钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-04-23",
+      "locator": "说明未标出带止动脚轮安装方向"
+    },
+    {
+      "evidence_id": "RAK-10",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/385578_10000589/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "折叠钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2026-04-10",
+      "locator": "找不占地且适配收纳箱的架"
+    },
+    {
+      "evidence_id": "MONO-01",
+      "sample_id": null,
+      "source_url": "https://www.monotaro.com/review/product/04395547/",
+      "platform": "MonotaRO",
+      "source_type": "木板钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2022-05-02",
+      "locator": "组装需要两人，熟悉后容易"
+    },
+    {
+      "evidence_id": "MONO-02",
+      "sample_id": null,
+      "source_url": "https://www.monotaro.com/review/product/04395547/",
+      "platform": "MonotaRO",
+      "source_type": "木板钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2021-12-23",
+      "locator": "缺螺母，组装耗时"
+    },
+    {
+      "evidence_id": "MONO-03",
+      "sample_id": null,
+      "source_url": "https://www.monotaro.com/review/product/04395547/",
+      "platform": "MonotaRO",
+      "source_type": "木板钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2021-06-23",
+      "locator": "外观不压迫空间但横向推动会晃"
+    },
+    {
+      "evidence_id": "MONO-04",
+      "sample_id": null,
+      "source_url": "https://www.monotaro.com/review/product/04395547/",
+      "platform": "MonotaRO",
+      "source_type": "木板钢架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2022-02-20",
+      "locator": "高度深度适配壁橱，组装和收纳书籍满意"
+    },
+    {
+      "evidence_id": "RAK-11",
+      "sample_id": null,
+      "source_url": "https://review.rakuten.co.jp/item/1/220310_10010747/1.1/",
+      "platform": "楽天市場レビュー",
+      "source_type": "木制3段开放架评论",
+      "verification_status": "VERIFIED",
+      "origin": "SKILL8",
+      "date": "2021-03-03",
+      "locator": "寻找放加湿器和植物的架，尺寸合适"
+    }
+  ],
+  "unverified_assumptions": [
+    "20–35岁及小户型目标画像不是样本统计结果",
+    "香水/摄影/音乐展示偏好来自用户主题建议而非本轮评论证据",
+    "本品承重、层间净高和脚垫调节行程未知"
+  ],
+  "downstream_instructions": {
+    "skill10": "按NEED-01至03检索可视的开放架分层、组装/免安装、真实板面细节案例；同类品差异需注明。",
+    "skill2": "将评论作为类目线索而非本品证明；页面结构继续标记免安装、取放与质感证据边界；不得写未经核实承重、容量、净高。"
+  }
+}

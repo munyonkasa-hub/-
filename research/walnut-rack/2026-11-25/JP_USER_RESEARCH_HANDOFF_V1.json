@@ -1,0 +1,237 @@
+{
+  "handoff_type": "JP_USER_RESEARCH_HANDOFF_V1",
+  "handoff_status": "PARTIAL",
+  "product_scope": {
+    "name": "免安装三层置物架",
+    "sku": "胡桃木色",
+    "user_dimensions_cm": {
+      "width": 32,
+      "depth": 26,
+      "height": 78.5
+    }
+  },
+  "research_method": {
+    "tools": [
+      "Firecrawl firecrawl_search",
+      "Firecrawl firecrawl_scrape"
+    ],
+    "started_firecrawl_agent": {
+      "job_id": "01a2111f-8029-74ac-979c-6985ef7b530e",
+      "status_at_handoff": "processing; result not used"
+    },
+    "target_samples": 30,
+    "verified_relevant_review_entries": 15,
+    "platform_count": 2,
+    "product_pages": 1,
+    "date_range": "2014-08 to 2026-10",
+    "limitations": [
+      "all four entries belong to one similar but not identical product page; width/depth larger and requires assembly",
+      "Yahoo page returned 500",
+      "RoomClip detail pages returned 403",
+      "this is partial, not market prevalence"
+    ],
+    "distinct_product_pages": 5,
+    "note": "15 source-read entries returned by Firecrawl Agent; product similarity varies. Original capture includes full excerpts in the agent result, this export lists all locations/topics and representative excerpts."
+  },
+  "samples": [
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-01",
+      "source_url": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-10-07",
+      "product_match": "similar wood-board steel-frame 3-tier shelf; not target product",
+      "excerpt_ja": "高さを抑える為に3段タイプ; 選ぶのも取り出すのも楽",
+      "translation": "为控制高度选三层；评论者称查看和取出更方便",
+      "verified": "VERIFIED",
+      "topic": "tiered visibility/access"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-02",
+      "source_url": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-09-13",
+      "product_match": "similar wood-board steel-frame shelf; not target product",
+      "excerpt_ja": "棚板の質感が画像では判断できない",
+      "translation": "仅凭图片难判断层板质感",
+      "verified": "VERIFIED",
+      "topic": "appearance information"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-03",
+      "source_url": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-07-05",
+      "product_match": "similar assembled shelf; not target product",
+      "excerpt_ja": "クロスバーを1人で取り付けるのに少し時間",
+      "translation": "一人安装横杆花了一些时间",
+      "verified": "VERIFIED",
+      "topic": "assembly concern"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-04",
+      "source_url": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-07-23",
+      "product_match": "similar assembled shelf; not target product",
+      "excerpt_ja": "棚部分が思ってたよりも良質",
+      "translation": "层板质感比预期好",
+      "verified": "VERIFIED",
+      "topic": "appearance/assembly"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-05",
+      "source_url": "https://review.rakuten.co.jp/item/1/429924_10000003/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-04-05",
+      "product_match": "折叠钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "组装容易但锁扣无法扣上",
+      "verified": "VERIFIED",
+      "topic": "组装容易但锁扣无法扣上"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-06",
+      "source_url": "https://review.rakuten.co.jp/item/1/429924_10000003/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-10-01",
+      "product_match": "折叠钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "5段更高时感觉稍不稳定",
+      "verified": "VERIFIED",
+      "topic": "5段更高时感觉稍不稳定"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-07",
+      "source_url": "https://review.rakuten.co.jp/item/1/429924_10000003/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-02-10",
+      "product_match": "折叠钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "窄小储藏室73×90cm内组装和安装",
+      "verified": "VERIFIED",
+      "topic": "窄小储藏室73×90cm内组装和安装"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-08",
+      "source_url": "https://review.rakuten.co.jp/item/1/385578_10000589/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-01-12",
+      "product_match": "折叠钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "担心折弯但放瓶装箱目前稳定",
+      "verified": "VERIFIED",
+      "topic": "担心折弯但放瓶装箱目前稳定"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-09",
+      "source_url": "https://review.rakuten.co.jp/item/1/385578_10000589/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-04-23",
+      "product_match": "折叠钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "说明未标出带止动脚轮安装方向",
+      "verified": "VERIFIED",
+      "topic": "说明未标出带止动脚轮安装方向"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-10",
+      "source_url": "https://review.rakuten.co.jp/item/1/385578_10000589/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2026-04-10",
+      "product_match": "折叠钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "找不占地且适配收纳箱的架",
+      "verified": "VERIFIED",
+      "topic": "找不占地且适配收纳箱的架"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "MONO-01",
+      "source_url": "https://www.monotaro.com/review/product/04395547/",
+      "platform": "MonotaRO",
+      "date": "2022-05-02",
+      "product_match": "木板钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "组装需要两人，熟悉后容易",
+      "verified": "VERIFIED",
+      "topic": "组装需要两人，熟悉后容易"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "MONO-02",
+      "source_url": "https://www.monotaro.com/review/product/04395547/",
+      "platform": "MonotaRO",
+      "date": "2021-12-23",
+      "product_match": "木板钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "缺螺母，组装耗时",
+      "verified": "VERIFIED",
+      "topic": "缺螺母，组装耗时"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "MONO-03",
+      "source_url": "https://www.monotaro.com/review/product/04395547/",
+      "platform": "MonotaRO",
+      "date": "2021-06-23",
+      "product_match": "木板钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "外观不压迫空间但横向推动会晃",
+      "verified": "VERIFIED",
+      "topic": "外观不压迫空间但横向推动会晃"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "MONO-04",
+      "source_url": "https://www.monotaro.com/review/product/04395547/",
+      "platform": "MonotaRO",
+      "date": "2022-02-20",
+      "product_match": "木板钢架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "高度深度适配壁橱，组装和收纳书籍满意",
+      "verified": "VERIFIED",
+      "topic": "高度深度适配壁橱，组装和收纳书籍满意"
+    },
+    {
+      "sample_id": null,
+      "evidence_id": "RAK-11",
+      "source_url": "https://review.rakuten.co.jp/item/1/220310_10010747/1.1/",
+      "platform": "Rakuten Reviews",
+      "date": "2021-03-03",
+      "product_match": "木制3段开放架评论; not target product",
+      "excerpt_ja": null,
+      "translation": "寻找放加湿器和植物的架，尺寸合适",
+      "verified": "VERIFIED",
+      "topic": "寻找放加湿器和植物的架，尺寸合适"
+    }
+  ],
+  "research_questions": [
+    "组装难易与完成品到货即用",
+    "三层陈列和查看取用",
+    "尺寸适配小空间",
+    "稳定性担忧",
+    "板面外观及图片信息",
+    "兴趣/展示使用场景"
+  ],
+  "excluded_or_blocked": [
+    {
+      "url": "https://shopping.yahoo.co.jp/categoryranking/49285/list/spec-E3604",
+      "status": "HTTP 500 / page unavailable"
+    },
+    {
+      "url": "https://roomclip.jp/photo/7Q2W",
+      "status": "HTTP 403; not counted as review evidence"
+    }
+  ],
+  "handoff_note": "Do not transfer competitor product features, dimensions, assembly issues, load capacity, or stability claims to the target product. Skill 1 uses these as category-level signals only."
+}

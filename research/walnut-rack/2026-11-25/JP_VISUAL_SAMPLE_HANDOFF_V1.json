@@ -1,0 +1,133 @@
+{
+  "handoff_type": "JP_VISUAL_SAMPLE_HANDOFF_V1",
+  "collection_id": "JVC-WALNUT-RACK-2026-11-25",
+  "target_product": {
+    "product_id": "WALNUT-RACK-3TIER",
+    "product_name": "免安装胡桃木色三层置物架",
+    "product_category": "3-tier narrow wooden-board steel-frame shelf"
+  },
+  "source_counts": {
+    "searched_images": 4,
+    "downloaded": 4,
+    "visually_viewed": 4,
+    "source_pages_verified_fully": 0,
+    "source_pages_partial": 2
+  },
+  "sample_ids": [
+    "JVS-f32aa3712aafa24a",
+    "JVS-c94cbe03f9ac443f",
+    "JVS-8e888f5a932c048c",
+    "JVS-cef3252fbe1320b6"
+  ],
+  "products": [
+    {
+      "product_id": "ROOMCLIP-REFERENCE-UNKNOWN-PRODUCT",
+      "brand": "RoomClip user-contributed image; author not verified",
+      "product_name_jp": null,
+      "product_category": "unidentified shelving in residential reference image",
+      "official_product_url": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "JVS-f32aa3712aafa24a",
+      "product_id": "ROOMCLIP-REFERENCE-UNKNOWN-PRODUCT",
+      "brand": null,
+      "product_name_jp": null,
+      "image_url": "https://cdn.roomclip.jp/photo/640/c338d7149b1f53d586b8622637086a7f4837dd1e.jpg",
+      "source_page_url": "https://roomclip.jp/tag/34848",
+      "image_type": "residential_case",
+      "image_role": "STORAGE",
+      "source_type": "RoomClip image search/tag",
+      "source_verified": "PARTIAL",
+      "image_access_status": "ACCESSIBLE",
+      "visual_access_status": "VIEWED",
+      "usage_rights_status": "RESEARCH_REFERENCE_ONLY",
+      "training_eligibility": "REVIEW_REQUIRED",
+      "content_sha256": "7c805482ad362b836cf18f8faa7968b15c1453ddcd4ecd69177712c4d88b5b85",
+      "duplicate_status": "UNIQUE"
+    },
+    {
+      "sample_id": "JVS-c94cbe03f9ac443f",
+      "product_id": "ROOMCLIP-REFERENCE-UNKNOWN-PRODUCT",
+      "brand": null,
+      "product_name_jp": null,
+      "image_url": "https://cdn.roomclip.jp/photo/640/31f9606814efe2c830f93731d05dfd8798335d0a.jpg",
+      "source_page_url": "https://roomclip.jp/tag/808",
+      "image_type": "residential_case",
+      "image_role": "STORAGE",
+      "source_type": "RoomClip image search/tag",
+      "source_verified": "PARTIAL",
+      "image_access_status": "ACCESSIBLE",
+      "visual_access_status": "VIEWED",
+      "usage_rights_status": "RESEARCH_REFERENCE_ONLY",
+      "training_eligibility": "REVIEW_REQUIRED",
+      "content_sha256": "4089dc0ad7f45d3c0576d3c326e47dba32016a35cf19a808d1a181c56ab75bc3",
+      "duplicate_status": "UNIQUE"
+    },
+    {
+      "sample_id": "JVS-8e888f5a932c048c",
+      "product_id": "ROOMCLIP-REFERENCE-UNKNOWN-PRODUCT",
+      "brand": null,
+      "product_name_jp": null,
+      "image_url": "https://cdn.roomclip.jp/photo/640/f0b61568260ff376186a88adb061bc49cf7d9eef.jpg",
+      "source_page_url": "https://roomclip.jp/tag/34848",
+      "image_type": "residential_case",
+      "image_role": "STORAGE",
+      "source_type": "RoomClip image search/tag",
+      "source_verified": "PARTIAL",
+      "image_access_status": "ACCESSIBLE",
+      "visual_access_status": "VIEWED",
+      "usage_rights_status": "RESEARCH_REFERENCE_ONLY",
+      "training_eligibility": "REVIEW_REQUIRED",
+      "content_sha256": "ac95a3f38035977ff92a4ede904e30962887a4f3ca1ccacee6df9077dffc8100",
+      "duplicate_status": "UNIQUE"
+    },
+    {
+      "sample_id": "JVS-cef3252fbe1320b6",
+      "product_id": "ROOMCLIP-REFERENCE-UNKNOWN-PRODUCT",
+      "brand": null,
+      "product_name_jp": null,
+      "image_url": "https://cdn.roomclip.jp/photo/640/75875d5337817a9d7fab6a48aceb8c2ad06aa59b.jpg",
+      "source_page_url": "https://roomclip.jp/tag/808",
+      "image_type": "residential_case",
+      "image_role": "STORAGE",
+      "source_type": "RoomClip image search/tag",
+      "source_verified": "PARTIAL",
+      "image_access_status": "ACCESSIBLE",
+      "visual_access_status": "VIEWED",
+      "usage_rights_status": "RESEARCH_REFERENCE_ONLY",
+      "training_eligibility": "REVIEW_REQUIRED",
+      "content_sha256": "ceeebafdb830de8385c0aac2caec6a8c824009a4b32fee016656372c62327570",
+      "duplicate_status": "UNIQUE"
+    }
+  ],
+  "dedup_report": {
+    "method": "SHA256 prefix of normalized image URL for sample_id; downloaded content hashes recorded",
+    "duplicates_found": 0,
+    "caveat": "No shared visual database was available; global uniqueness not externally verified"
+  },
+  "data_quality": {
+    "image_bytes_downloaded": true,
+    "visual_reviewed": true,
+    "source_page_blocked": true,
+    "product_match": "category-level visual references only"
+  },
+  "storage_status": "LOCAL_EXPORT_ONLY; no shared database write performed",
+  "skill9_compatibility": "candidate sample handoff only; source attribution remains partial",
+  "unknowns": [
+    "RoomClip original post pages are blocked (403)",
+    "author/context/date/room size not verified",
+    "commercial reuse and training rights not confirmed"
+  ],
+  "source_index": [
+    {
+      "url": "https://roomclip.jp/tag/34848",
+      "status": "PARTIAL"
+    },
+    {
+      "url": "https://roomclip.jp/tag/808",
+      "status": "PARTIAL"
+    }
+  ]
+}
