@@ -1,0 +1,626 @@
+{
+  "handoff_type": "JP_DETAIL_STRUCTURE_DRAFT_V1",
+  "approval_status": "DRAFT_REVISED",
+  "requires_user_review": true,
+  "ready_for_skill3_full_production": false,
+  "project_id": "walnut-rack-2026-11-25",
+  "revision": "walnut-rack-skill2-draft-v2",
+  "product_truth_revision": "user-confirmed-2026-11-25",
+  "product": {
+    "name": "免安装三层置物架",
+    "selected_sku": "胡桃木色",
+    "dimensions_cm": {
+      "width": 32,
+      "depth": 26,
+      "height": 78.5
+    },
+    "materials": [
+      "碳钢",
+      "木板"
+    ],
+    "functions": [
+      "免安装",
+      "脚垫可调平衡"
+    ],
+    "source_image": {
+      "path": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9",
+      "observed_visible": [
+        "三层胡桃木色搁板",
+        "黑色框架",
+        "横杆",
+        "脚部"
+      ]
+    }
+  },
+  "upstream_status": {
+    "research_mode": "PARTIAL_EVIDENCE + visual samples partial",
+    "skill8": "PARTIAL; 15 verified analogous review entries across Rakuten and MonotaRO; target 30 not reached; five similar product pages",
+    "skill1": "PARTIAL_EVIDENCE; completed analysis and handoff",
+    "skill10": "PARTIAL; 4 RoomClip images downloaded and viewed; source pages 403; commercial rights unknown",
+    "skill9": "NOT_PROVIDED",
+    "skill2": "READ current cloud Skill 2 v0.3.0",
+    "visual_standard": "READ repository visual standard",
+    "historical_approval_content": "PARTIAL; user approval statements are visible, but approved script/file hashes are unavailable",
+    "firecrawl_agent": "completed; job 01a2111f-8029-74ac-979c-6985ef7b530e; structured results saved in JP_USER_RESEARCH_HANDOFF_V1.json",
+    "foot_pad_photo": "VIEWED in current chat; embedded image only; no source file path or SHA-256"
+  },
+  "recommended_total_pages": 8,
+  "pages": [
+    {
+      "page_id": "P1",
+      "page_name": "小空间里的有序取放",
+      "consumer_question": "小户型里如何让常用物品分层可见、方便拿取，同时展示置物架整体体量？",
+      "objective": "无字场景中呈现三层可视分区、开放架取放便利线索与商品整体比例，不将类目评论说成本品实测",
+      "content_priority": [
+        "完整三层胡桃木色置物架",
+        "少量归类清楚的日常兴趣物件",
+        "保留可见层板前缘和取放空间"
+      ],
+      "evidence_level": "B for category-level visual planning; product facts from user/photo",
+      "evidence_refs": [
+        "RAK-01",
+        "JVS-f32aa3712aafa24a",
+        "JVS-8e888f5a932c048c",
+        "USER_PRODUCT_FACTS"
+      ],
+      "product_proof_needed": "可见三层和原图结构；不证明承重/层间净高",
+      "reason_for_position": "首图建立小空间摆放关系，回应类目评论中的层数/查看取物问题",
+      "no_text": true,
+      "visual_format": "无字完整生活场景",
+      "reference_sample_ids": [],
+      "visual_source_urls": [],
+      "visual_evidence_status": "NOT_PROVIDED",
+      "visual_selection_reason": "评论线索提及三层便于控制高度、查看和取物；RoomClip案例可观察开放架分组陈列。场景与道具作为候选创作，不是本品实测或受众偏好事实。",
+      "transferable_visual_aspects": [
+        "开放架靠墙及家具关系",
+        "分层归类、留出架板边缘",
+        "控制陈列密度以保持可读"
+      ],
+      "visual_transfer_limitations": [
+        "RoomClip原帖访问403、商品结构不同",
+        "不把消费者评论移植成本品表现",
+        "不暗示承重、净高或日本户型测量结论"
+      ],
+      "optional_skill9_rule_ids": [],
+      "candidate_skus": [
+        "胡桃木色"
+      ],
+      "selected_sku": "胡桃木色",
+      "required_materials": [
+        "白底整机原图",
+        "真实住宅视觉参考（若需证据化场景）"
+      ],
+      "available_materials": [
+        "白底整机原图"
+      ],
+      "feasibility_status": "CONDITIONAL",
+      "minimum_materials_to_produce": [
+        "已读取的商品原图"
+      ],
+      "feasible_alternative": "不出现人物，仅以真实尺度家具和少量已批准兴趣物件表现空间",
+      "unverified_claims": [
+        "受众偏好兴趣展示",
+        "层板承重与净高"
+      ],
+      "publish_risk": "场景素材与消费者研究缺失；不得宣称日本消费者偏好已验证",
+      "editable_fields": [
+        "主题",
+        "兴趣物件",
+        "场景",
+        "排序",
+        "道具"
+      ],
+      "user_decision": "REVISED_PENDING_REVIEW",
+      "user_notes": "用户要求按研究重策划P1"
+    },
+    {
+      "page_id": "P2",
+      "page_name": "无需安装的使用门槛",
+      "consumer_question": "收到后是否需要自行组装？",
+      "objective": "用可信证据解释免安装",
+      "content_priority": [
+        "真实到货/摆放状态",
+        "免安装说明"
+      ],
+      "evidence_level": "B; user product name only",
+      "evidence_refs": [
+        "USER_PRODUCT_NAME",
+        "RAK-03"
+      ],
+      "product_proof_needed": "真实包装、开箱或到货状态证据",
+      "reason_for_position": "在理解场景后回应使用准备疑问",
+      "no_text": false,
+      "visual_format": "真实过程或状态证据配短文案",
+      "reference_sample_ids": [],
+      "visual_source_urls": [],
+      "visual_evidence_status": "NOT_PROVIDED",
+      "visual_selection_reason": "比单纯文字更直接地呈现使用门槛；过程素材缺失",
+      "transferable_visual_aspects": [],
+      "visual_transfer_limitations": [
+        "不得编造安装步骤、工具或时间"
+      ],
+      "optional_skill9_rule_ids": [],
+      "candidate_skus": [
+        "胡桃木色"
+      ],
+      "selected_sku": "胡桃木色",
+      "required_materials": [
+        "开箱或到货实拍"
+      ],
+      "available_materials": [
+        "白底整机原图"
+      ],
+      "feasibility_status": "CONDITIONAL",
+      "minimum_materials_to_produce": [
+        "开箱/到货原片或用户批准的静态证据替代"
+      ],
+      "feasible_alternative": "Confirm whether delivered product requires unfolding or foot adjustment; show only verified ready-to-use state, not an invented unboxing process",
+      "unverified_claims": [
+        "exact delivery/ready-to-use steps"
+      ],
+      "publish_risk": "若无包装证据，画面不能伪装成真实开箱",
+      "editable_fields": [
+        "展示形式",
+        "文案主题",
+        "素材"
+      ],
+      "user_decision": "APPROVED_CONTENT",
+      "user_notes": "用户表示其他页面按现稿批准；本稿完整修订版仍待整体确认"
+    },
+    {
+      "page_id": "P3",
+      "page_name": "三层分区陈列",
+      "consumer_question": "三层如何放置不同兴趣物件？",
+      "objective": "呈现分层使用行为与结构",
+      "content_priority": [
+        "三层可见",
+        "单手取放或陈列行为",
+        "物件尺度真实"
+      ],
+      "evidence_level": "C for proposed hobby use",
+      "evidence_refs": [
+        "RAK-01",
+        "JVS-f32aa3712aafa24a",
+        "JVS-8e888f5a932c048c"
+      ],
+      "product_proof_needed": "三层结构与真实取放空间",
+      "reason_for_position": "在免安装说明后展示日常使用方式",
+      "no_text": false,
+      "visual_format": "真实行为场景配短说明",
+      "reference_sample_ids": [],
+      "visual_source_urls": [],
+      "visual_evidence_status": "NOT_PROVIDED",
+      "visual_selection_reason": "让分层结构通过使用行为被看见，避免纯文字页",
+      "transferable_visual_aspects": [],
+      "visual_transfer_limitations": [
+        "不推断层间净高、承重或物件适配尺寸"
+      ],
+      "optional_skill9_rule_ids": [],
+      "candidate_skus": [
+        "胡桃木色"
+      ],
+      "selected_sku": "胡桃木色",
+      "required_materials": [
+        "整机原图",
+        "摆放物尺寸或真实使用照片（如要证明适配）"
+      ],
+      "available_materials": [
+        "白底整机原图"
+      ],
+      "feasibility_status": "CONDITIONAL",
+      "minimum_materials_to_produce": [
+        "整机原图"
+      ],
+      "feasible_alternative": "Group a few real-size hobby objects by tier; preserve visible shelf edges and avoid capacity claims",
+      "unverified_claims": [
+        "consumer preference for perfume/photography/music display",
+        "load capacity",
+        "clearance between tiers"
+      ],
+      "publish_risk": "道具比例可能让买家误判可放尺寸",
+      "editable_fields": [
+        "兴趣主题",
+        "物件类别",
+        "动作",
+        "位置"
+      ],
+      "user_decision": "APPROVED_CONTENT",
+      "user_notes": "用户说其他页面沿用并批准上一版策划"
+    },
+    {
+      "page_id": "P4",
+      "page_name": "脚垫调平",
+      "consumer_question": "地面不平时脚垫如何调节？",
+      "objective": "用真实局部或动作展示脚垫可调平衡",
+      "content_priority": [
+        "脚垫真实结构",
+        "经确认的调节动作"
+      ],
+      "evidence_level": "B; user-confirmed function, limited photo evidence",
+      "evidence_refs": [
+        "USER_PRODUCT_FUNCTION",
+        "CHAT_EMBEDDED_FOOT_PHOTO"
+      ],
+      "product_proof_needed": "原片清晰呈现螺纹脚垫及其真实操作",
+      "reason_for_position": "在主要使用方式后解决摆放稳定疑问",
+      "no_text": false,
+      "visual_format": "真实局部/手部动作加简短步骤",
+      "reference_sample_ids": [],
+      "visual_source_urls": [],
+      "visual_evidence_status": "NOT_PROVIDED",
+      "visual_selection_reason": "局部动作比文字说明更能证明调节方式；当前补拍不是可处理文件",
+      "transferable_visual_aspects": [],
+      "visual_transfer_limitations": [
+        "不虚构脚垫范围、工具或内部结构"
+      ],
+      "optional_skill9_rule_ids": [],
+      "candidate_skus": [
+        "胡桃木色"
+      ],
+      "selected_sku": "胡桃木色",
+      "required_materials": [
+        "脚垫补拍原文件",
+        "用户确认的调节步骤"
+      ],
+      "available_materials": [
+        "用户本轮聊天内嵌脚垫补拍；已查看，外露螺纹及黑色脚垫可见，但无原文件哈希"
+      ],
+      "feasibility_status": "CONDITIONAL",
+      "minimum_materials_to_produce": [
+        "用户内嵌脚垫补拍可作为本轮视觉参考；像素级归档时需独立文件",
+        "调节旋转方式确认（若展示动作）"
+      ],
+      "feasible_alternative": "静态局部展示脚垫螺纹与底部连接，不演示未确认的旋转步骤",
+      "unverified_claims": [
+        "调节行程",
+        "具体旋转方向/步骤"
+      ],
+      "publish_risk": "素材不足时AI可能补造螺纹或接合结构",
+      "editable_fields": [
+        "细节展示",
+        "动作",
+        "补拍素材"
+      ],
+      "user_decision": "APPROVED_WITH_ASSET_NOTE",
+      "user_notes": "用户提供脚垫补拍；实际图像只存在聊天内嵌状态"
+    },
+    {
+      "page_id": "P5",
+      "page_name": "外尺寸信息",
+      "consumer_question": "置物架占地及整体高度是多少？",
+      "objective": "准确说明宽深高与适用空间判断",
+      "content_priority": [
+        "32 cm宽",
+        "26 cm深",
+        "78.5 cm高",
+        "对应英寸"
+      ],
+      "evidence_level": "A; user-confirmed measurements",
+      "evidence_refs": [
+        "USER_DIMENSIONS_CORRECTED_WIDTH_32CM"
+      ],
+      "product_proof_needed": "尺寸线对应真实外边缘及轴向",
+      "reason_for_position": "消费者理解商品后提供空间判断数据",
+      "no_text": false,
+      "visual_format": "真实比例结构图/尺寸信息图",
+      "reference_sample_ids": [],
+      "visual_source_urls": [],
+      "visual_evidence_status": "NOT_APPLICABLE",
+      "visual_selection_reason": "尺寸问题需要准确标注，不需强加房间场景",
+      "transferable_visual_aspects": [],
+      "visual_transfer_limitations": [
+        "英寸两位小数；尺寸线不得混淆宽深高；免责声明逐字按共用规范"
+      ],
+      "optional_skill9_rule_ids": [],
+      "candidate_skus": [
+        "胡桃木色"
+      ],
+      "selected_sku": "胡桃木色",
+      "required_materials": [
+        "整机原图",
+        "尺寸测量依据归档"
+      ],
+      "available_materials": [
+        "整机原图",
+        "用户文字尺寸"
+      ],
+      "feasibility_status": "CONDITIONAL",
+      "minimum_materials_to_produce": [
+        "确认尺寸端点定义"
+      ],
+      "feasible_alternative": "使用原图角度做独立尺寸示意，避免改商品透视比例",
+      "unverified_claims": [
+        "尺寸误差实际范围"
+      ],
+      "publish_risk": "缺少独立测量文件，制作前复核尺寸和端点",
+      "editable_fields": [
+        "图示角度",
+        "尺寸线位置",
+        "注释"
+      ],
+      "user_decision": "APPROVED_CONTENT",
+      "user_notes": "用户表示其他页面按现稿批准；本稿完整修订版仍待整体确认"
+    },
+    {
+      "page_id": "P6",
+      "page_name": "真实结构细节",
+      "consumer_question": "木板、框架、横杆和脚部实际细节如何？",
+      "objective": "展示可核验的材料外观与连接细节",
+      "content_priority": [
+        "木板边缘",
+        "框架横杆连接",
+        "脚垫",
+        "不同局部证据"
+      ],
+      "evidence_level": "B; whole-product image only",
+      "evidence_refs": [
+        "SOURCE_IMAGE_SHA256:1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9",
+        "RAK-02"
+      ],
+      "product_proof_needed": "细节原片支持真实裁切及结构判断",
+      "reason_for_position": "在尺寸之后提供近距离实物检查证据",
+      "no_text": false,
+      "visual_format": "优先实拍裁切的2×2细节页",
+      "reference_sample_ids": [],
+      "visual_source_urls": [],
+      "visual_evidence_status": "NOT_PROVIDED",
+      "visual_selection_reason": "四格可快速对照不同真实部位，但仅在各格可清晰辨认时使用",
+      "transferable_visual_aspects": [],
+      "visual_transfer_limitations": [
+        "不得AI重建木纹、连接或脚垫",
+        "不将外观推断为具体木种或钢材性能"
+      ],
+      "optional_skill9_rule_ids": [],
+      "candidate_skus": [
+        "胡桃木色"
+      ],
+      "selected_sku": "胡桃木色",
+      "required_materials": [
+        "清晰层板边缘/连接点/脚垫原始细节照片"
+      ],
+      "available_materials": [
+        "白底整机原图",
+        "脚垫补拍聊天内嵌图，已查看；无独立文件哈希"
+      ],
+      "feasibility_status": "CONDITIONAL",
+      "minimum_materials_to_produce": [
+        "现有整体商品图可辨范围",
+        "聊天内嵌脚垫补拍可作为脚部视觉依据",
+        "板边/横杆连接仅在原图清楚可见时使用；不清楚则补拍"
+      ],
+      "feasible_alternative": "减少为能从真实图像清楚辨认的局部格数，不生成补纹理",
+      "unverified_claims": [
+        "精细材质纹理",
+        "连接件隐藏结构"
+      ],
+      "publish_risk": "低分辨率裁切可能制造不存在的细节观感",
+      "editable_fields": [
+        "格数",
+        "细节部位",
+        "标签"
+      ],
+      "user_decision": "APPROVED_WITH_ASSET_NOTE",
+      "user_notes": "用户提供脚垫补拍，但当前为聊天内嵌图"
+    },
+    {
+      "page_id": "P7",
+      "page_name": "音乐角陈列",
+      "consumer_question": "音乐相关物件如何在三层开放架上有序陈列？",
+      "objective": "以用户选定的音乐角展示三层陈列关系，维持商品可见并与P1、P8区分",
+      "content_priority": [
+        "三层商品主体",
+        "少量唱片/乐谱/耳机等兴趣物件（制作前核对实际比例）",
+        "不同于P1/P8的空间和构图"
+      ],
+      "evidence_level": "C; creative proposal only",
+      "evidence_refs": [
+        "JVS-c94cbe03f9ac443f",
+        "JVS-cef3252fbe1320b6"
+      ],
+      "product_proof_needed": "商品真实比例及空间摆放合理性",
+      "reason_for_position": "补足另一种使用情境并与邻页拉开画面节奏",
+      "no_text": false,
+      "visual_format": "音乐角单一生活场景配短说明",
+      "reference_sample_ids": [],
+      "visual_source_urls": [],
+      "visual_evidence_status": "PARTIAL; viewed RoomClip images, source pages blocked",
+      "visual_selection_reason": "用户明确选定音乐角；消费者研究未证明音乐兴趣偏好，此页是用户主题选择。",
+      "transferable_visual_aspects": [],
+      "visual_transfer_limitations": [
+        "不把创意主题写成消费者研究结论",
+        "不复制P1构图"
+      ],
+      "optional_skill9_rule_ids": [],
+      "candidate_skus": [
+        "胡桃木色"
+      ],
+      "selected_sku": "胡桃木色",
+      "required_materials": [
+        "真实住宅参考图或经批准的原创场景方向"
+      ],
+      "available_materials": [
+        "白底整机原图"
+      ],
+      "feasibility_status": "CONDITIONAL",
+      "minimum_materials_to_produce": [
+        "场景方向确认"
+      ],
+      "feasible_alternative": "聚焦一个摄影/音乐收藏角主题，不混放多种道具",
+      "unverified_claims": [
+        "年轻消费者对该空间主题的偏好"
+      ],
+      "publish_risk": "无视觉证据时房间设计仅为创意假设",
+      "editable_fields": [
+        "场景主题",
+        "道具类别",
+        "空间位置"
+      ],
+      "user_decision": "APPROVED_THEME",
+      "user_notes": "用户指定音乐角"
+    },
+    {
+      "page_id": "P8",
+      "page_name": "工作角收纳",
+      "consumer_question": "工作角里如何呈现置物架整体，并与P1拉开差异？",
+      "objective": "以用户选定的工作角无字完整场景收尾，与首图形成明显视觉差异",
+      "content_priority": [
+        "完整三层商品",
+        "桌椅及架体位置关系",
+        "少量文具/文件/书籍道具"
+      ],
+      "evidence_level": "C; creative proposal only",
+      "evidence_refs": [],
+      "product_proof_needed": "整机结构和住宅空间比例",
+      "reason_for_position": "以完整商品场景结束并与首图形成视觉差异",
+      "no_text": true,
+      "visual_format": "无字完整生活场景",
+      "reference_sample_ids": [],
+      "visual_source_urls": [],
+      "visual_evidence_status": "NOT_PROVIDED",
+      "visual_selection_reason": "用户明确选择工作角；不是消费者研究结论。",
+      "transferable_visual_aspects": [],
+      "visual_transfer_limitations": [
+        "不强加不适合的房间",
+        "不可改变商品结构或缩小参照家具"
+      ],
+      "optional_skill9_rule_ids": [],
+      "candidate_skus": [
+        "胡桃木色"
+      ],
+      "selected_sku": "胡桃木色",
+      "required_materials": [
+        "白底整机原图",
+        "场景方向确认"
+      ],
+      "available_materials": [
+        "白底整机原图"
+      ],
+      "feasibility_status": "CONDITIONAL",
+      "minimum_materials_to_produce": [
+        "场景方向确认"
+      ],
+      "feasible_alternative": "如用户不需要第二场景，可重新讨论末页目标",
+      "unverified_claims": [
+        "第二场景主题适配度"
+      ],
+      "publish_risk": "过度装饰可能弱化商品主体",
+      "editable_fields": [
+        "房间主题",
+        "位置",
+        "机位",
+        "陈列"
+      ],
+      "user_decision": "APPROVED_THEME",
+      "user_notes": "用户指定工作角"
+    }
+  ],
+  "purchase_journey": [
+    "生活空间与整体体量",
+    "免安装顾虑",
+    "分层使用",
+    "脚垫调平",
+    "尺寸适配",
+    "真实细节",
+    "另一种场景",
+    "无字场景收尾"
+  ],
+  "primary_purchase_reasons": [
+    "三层分区陈列",
+    "免安装",
+    "脚垫可调平衡",
+    "紧凑外尺寸"
+  ],
+  "source_index": [
+    {
+      "id": "USER_PRODUCT_FACTS",
+      "source": "Current conversation user statements",
+      "status": "READ"
+    },
+    {
+      "id": "SOURCE_IMAGE_SHA256:1d8c8f4360600925f80c96b47cb39754eba0e65bbb8295247ca4e32930310ef9",
+      "source": "sources/Codex 图像 2026年9月11日 17_21_30.png",
+      "status": "VIEWED"
+    },
+    {
+      "id": "VISUAL_STANDARD",
+      "source": "视觉标准/SHEIN-JP-商品详情页视觉设计标准.md",
+      "status": "READ"
+    },
+    {
+      "id": "RAK-01",
+      "source": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "status": "VERIFIED page read; similar product only"
+    },
+    {
+      "id": "RAK-02",
+      "source": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "status": "VERIFIED page read; similar product only"
+    },
+    {
+      "id": "RAK-03",
+      "source": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "status": "VERIFIED page read; similar product only"
+    },
+    {
+      "id": "RAK-04",
+      "source": "https://review.rakuten.co.jp/item/1/205937_10006164/1.1/",
+      "status": "VERIFIED page read; similar product only"
+    },
+    {
+      "id": "VISUAL_HANDOFF",
+      "source": "JP_PRODUCT_VISUAL_EVIDENCE_HANDOFF_V1.json",
+      "status": "PARTIAL; 4 images visually viewed"
+    },
+    {
+      "id": "JP_USER_RESEARCH_HANDOFF_V1",
+      "source": "JP_USER_RESEARCH_HANDOFF_V1.json",
+      "status": "PARTIAL; 15 analog product review entries"
+    },
+    {
+      "id": "JP_PRODUCT_VISUAL_EVIDENCE_HANDOFF_V1",
+      "source": "JP_PRODUCT_VISUAL_EVIDENCE_HANDOFF_V1.json",
+      "status": "PARTIAL; 4 viewed reference images"
+    }
+  ],
+  "feasibility_summary": {
+    "READY": 0,
+    "CONDITIONAL": 8,
+    "ASSET_REQUIRED": 0,
+    "UNSUPPORTED": 0,
+    "USER_DECISION": 0
+  },
+  "unverified_claims_and_safety_checks": [
+    "用户研究包未提供，年轻兴趣展示只属创意假设",
+    "未提供承重、层间净高、板材具体种类及脚垫行程",
+    "P2/P4/P6缺少真实过程或细节原片"
+  ],
+  "constraints_for_skill3": [
+    "Skill 3不得将本DRAFT当作正式批准交接",
+    "商品结构与三层数量以原图为准",
+    "尺寸为用户确认的宽32×深26×高78.5 cm",
+    "不得添加承重、容量或材料性能声明",
+    "P1与P8无字完整生活场景",
+    "遵守当前共用视觉标准并逐页独立设计"
+  ],
+  "visual_evidence_handoff_ref": null,
+  "visual_research_gaps": [
+    "Skill 8 target 30 independent evidence not reached",
+    "RoomClip source pages return 403; authors/date/room dimensions unverified",
+    "official product images not visually reviewed; no shared sample library"
+  ],
+  "optional_skill9_rule_ref": null,
+  "user_edit_instructions": "请直接修改各页主题/顺序/形式，增删页面，并补充待补素材。AI负责将你的修改整理回完整草案。",
+  "revision_notes": [
+    "P1依据15条类目评论、Skill 1需求分析和Skill 10四张已查看的RoomClip参考重策划：小空间分层可见、易查看/取物；注明研究与本品结构差异。",
+    "用户选择P7音乐角、P8工作角。",
+    "用户说明其他页面沿用并批准；P2–P6策划内容保留。",
+    "新增聊天内嵌脚垫补拍证据，登记观察内容但未将图片文件化或哈希。"
+  ],
+  "approval_evidence": {
+    "user_decisions": "P1 replan based on research/insights/visual evidence; P7 music corner; P8 work corner; other pages approved; foot-pad photo supplied",
+    "status": "partial page-level approval and revised draft; full current draft awaiting review"
+  }
+}
