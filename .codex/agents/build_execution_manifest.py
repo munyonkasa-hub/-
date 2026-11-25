@@ -9,6 +9,14 @@ from pathlib import Path
 from tempfile import NamedTemporaryFile
 
 
+ROUTES = {
+    "PHOTO_GENERATION": True,
+    "SOURCE_CROP_LAYOUT": False,
+    "STATIC_LAYOUT": False,
+    "REUSE": False,
+}
+
+
 def digest(data):
     return hashlib.sha256(data).hexdigest()
 
@@ -103,6 +111,11 @@ def build(root, script, listing):
     if strict and (not new_columns.issubset(rows[0]) or
                    decision.get("approved_list_sha256") != list_ref["sha256"]):
         raise ValueError("design handoff columns missing or CSV differs from approval")
+    route_schema = decision.get("route_schema")
+    if route_schema not in (None, 1):
+        raise ValueError("unsupported route_schema")
+    if route_schema == 1 and (not strict or "方式" not in rows[0]):
+        raise ValueError("route_schema 1 requires an approved three-channel list and route column")
     sections = page_sections(script.read_text(encoding="utf-8"), ids, strict)
     manifest = {"approved_script": approved, "approval": reference(approval, root),
                 "approved_list": list_ref, "decisions": reference(decisions, root),
@@ -119,10 +132,23 @@ def build(root, script, listing):
         page["outputs"] = [reference(root / name, root) for name in page.get("outputs", [])]
         page_text = sections[page_id]
         page["design_input"] = text_input(root, "approved-design", page_text)
+        if route_schema == 1:
+            route = row["方式"].strip()
+            if route not in ROUTES:
+                raise ValueError(f"{page_id}: unsupported production route: {route}")
+            if f"制作路线：{route}" not in page_text:
+                raise ValueError(f"{page_id}: route differs from approved page script")
+            page["execution_route"] = route
+            page["route_verified"] = True
+        else:
+            page["execution_route"] = None
+            page["route_verified"] = False
         if strict:
             photo = row["摄影底图指令"] or None
             copy = row["日文全文"]
             layout = row["版式执行指令"]
+            if route_schema == 1 and bool(photo) != ROUTES[route]:
+                raise ValueError(f"{page_id}: photo input conflicts with production route {route}")
             if not layout.strip():
                 raise ValueError(f"{page_id}: missing layout instructions")
             for label in ("摄影底图指令", "日文全文", "版式执行指令"):
